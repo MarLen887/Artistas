@@ -242,11 +242,16 @@ img{
     width: 800px;
     height: auto;
     margin-top: 50px;
-    margin-left: 50px;
     max-width: fit-content;
 }
 .carrusel{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (min-width:280px) and (max-width: 653px){
+    .carousel{
+        margin-right: 50px;
+    }
 }
